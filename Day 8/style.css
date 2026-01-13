@@ -1,0 +1,21 @@
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h3{
+    color: #1abc9c;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(0,0,0,0.7);
+    font-family: Geist;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: Geist;
+}
