@@ -1,20 +1,21 @@
-body{
+body {
     max-width: 600px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-h3{
+h3 {
     color: #1abc9c;
 }
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6;
-    color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.7);
     font-family: Geist;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
     font-family: Geist;
