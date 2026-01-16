@@ -1,0 +1,29 @@
+.container-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.box1{
+    width: 300px;
+    height: 200px;
+    border: 4px dotted blue;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.box2{
+    width: 400px;
+    height: 300px;
+    border: 3px solid black;
+    box-sizing: content-box;
+    padding: 20px;
+}
+
+.box3{
+    width:300px;
+    height: 300px;
+    border: 2px double goldenrod;
+    box-sizing: border-box;
+    padding: 40px;
+}

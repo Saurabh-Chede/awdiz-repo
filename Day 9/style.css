@@ -1,0 +1,15 @@
+.box{
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    margin: 40px;
+    border: 3px dashed #e74c3c ;
+    box-sizing: border-box;
+}
+
+p{
+    color: rgb(85, 83, 83);
+    text-align: center;
+    
+    
+}
