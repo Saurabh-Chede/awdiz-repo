@@ -2,27 +2,35 @@
     width: 200px;
     height: 200px;
     border: 1px solid;
+    box-sizing: border-box;
 }
 
 .box1 {
     background-color: red;
     position: relative;
     top: 10px;
-    left: 500px;
+    left: 120px;
+    z-index: 3;
 }
 
 .box2 {
     background-color: yellowgreen;
     position: relative;
+    z-index: 4;
+    top: 50px;
+    left: 80px;
 }
 
 .inside-box {
     position: absolute;
     width: 100px;
     height: 100px;
-    top: 20px;
+    top: 50px;
+    left: 50px;
     background-color: orange;
     border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .box3 {
