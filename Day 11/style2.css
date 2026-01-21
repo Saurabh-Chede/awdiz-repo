@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;  
+}
+
+body{
+    display: flex;
+    margin: 0 auto;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgb(240, 179, 216);
+    /* width: 100%; */
+    /* height: 100svh; */
+    flex-direction: column;
+    border: .3px solid rgba(17, 16, 16,20%);
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.card{
+    
+    background-color: aqua;
+    text-align: center;
+    padding: 60px;
+    margin: 30px;
+    border-radius: 1rem;
+    
+}
