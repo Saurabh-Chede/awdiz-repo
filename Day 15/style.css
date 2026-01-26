@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    display: flex;
+    padding-block: 10px;
+   
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid red;
+    margin: 0 auto;
+
+    padding-inline: 20px;
+
+}
+
+.part-one {
+    width: 50%;
+    display: flex;
+    gap: 40px;
+     border: 1px solid red;
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    align-items: center;
+     border: 1px solid red;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.Navlinks {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+     border: 1px solid red;
+
+}
+
+.Navlinks p {
+    font-size: 13px;
+    color: rgb(76, 78, 92);
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.part-two {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+     border: 1px solid red;
+}
+
+.search {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 241, 245);
+    padding-inline: 10px;
+    height: 38px;
+    border-radius: 0.2rem;
+    display: flex;
+    gap: 10px;
+    border: 1px solid red;
+
+}
+
+.search input {
+    background-color: rgb(241, 241, 245);
+    width: 80%;
+    font-size: 13px;
+    
+
+
+}
+
+.profile {
+    width: 35%;
+    display: flex;
+   
+    border: 1px solid red;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+._profile {
+    text-align: center;
+     border: 1px solid red;
+
+}
+
+.profile p {
+    font-size: 12px;
+    font-weight: bold;
+     border: 1px solid red;
+}
