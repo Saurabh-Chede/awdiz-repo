@@ -4,33 +4,27 @@
     box-sizing: border-box;
 }
 
-
 nav {
     display: flex;
     padding-block: 10px;
-   
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border: 1px solid red;
     margin: 0 auto;
-
     padding-inline: 20px;
-
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
 .part-one {
     width: 50%;
     display: flex;
     gap: 40px;
-     border: 1px solid red;
 }
 
 .logo {
     width: 10%;
     display: flex;
     align-items: center;
-     border: 1px solid red;
 }
 
 .logo img {
@@ -42,15 +36,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     border: 1px solid red;
-
 }
 
-.Navlinks p {
+.Navlinks a {
     font-size: 13px;
     color: rgb(76, 78, 92);
     font-weight: bold;
     letter-spacing: 1px;
+    text-decoration: none;
 }
 
 .part-two {
@@ -58,7 +51,6 @@ nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-     border: 1px solid red;
 }
 
 .search {
@@ -71,7 +63,6 @@ nav {
     border-radius: 0.2rem;
     display: flex;
     gap: 10px;
-    border: 1px solid red;
 
 }
 
@@ -79,28 +70,20 @@ nav {
     background-color: rgb(241, 241, 245);
     width: 80%;
     font-size: 13px;
-    
-
-
 }
 
 .profile {
     width: 35%;
     display: flex;
-   
-    border: 1px solid red;
     justify-content: flex-end;
     gap: 30px;
 }
 
 ._profile {
     text-align: center;
-     border: 1px solid red;
-
 }
 
 .profile p {
     font-size: 12px;
     font-weight: bold;
-     border: 1px solid red;
 }
