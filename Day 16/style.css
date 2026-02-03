@@ -459,10 +459,13 @@ nav .nav_btns {
         display: flex;
         justify-content: space-between;
         padding-inline: 46px;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 40px;
     }
 
     .learning-section__title {
-        margin-bottom: 10px;
+
         font-size: 32px;
         color: #384047;
     }
