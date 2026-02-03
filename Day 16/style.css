@@ -37,6 +37,7 @@ nav {
 nav .logo {
     width: 10%;
     /* border: 1px solid red; */
+    margin-right: 20px;
 }
 
 .navlinks {
@@ -272,6 +273,8 @@ nav .nav_btns {
     border: 2px solid red;
 } */
 
+
+
 .course__section h3 {
     font-size: 20px;
     color: #384047;
@@ -459,9 +462,14 @@ nav .nav_btns {
     }
 
     .learning-section__title {
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         font-size: 32px;
         color: #384047;
+    }
+
+    .course__section h2{
+        padding-left: 10px;
+        padding-top: 20px;
     }
 
     .learning-section__navigation {
